@@ -1,0 +1,109 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  background: url("bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #ECF0F5;
+    background-position: center;
+
+}
+.center-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 255px;
+  margin-top: -125px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.9;
+}
+#msg {
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.form-input{
+  width:80%;
+  position:center;
+  border:1px solid #aaa;
+  border-radius: 8px;
+  margin:8px 0;
+  padding:9px;
+  padding-left: 30px;
+  box-sizing:content-box;
+  
+  font-display:unset;
+}
+.form-input:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.error-box {
+  height: 10px;
+}
+.gap{
+  height: 10px;
+}
+.errors {
+  text-align: center;
+  padding: 2px 0px;
+}
+.form-signin {
+  margin: 30px 40px;
+}
+.form-signin img {
+  height: 30px;
+  float: left;
+  padding-right: 10px;
+}
+.form-signin h2 {
+  color: #34A8E4;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-style:initial;
+  font-family:sans-serif;
+}
+.form-signin h2 span {
+  color: #E77817;
+  font-weight: normal;
+}
+.form-group i{
+
+  padding:9px;
+  position:absolute;
+  margin-top: 6px;
+  margin-right: 600px;
+
+  
+}
+.form-signin .form-control {
+  padding-left: 35px;
+}
+.signin-btn{
+  background:royalblue;
+  color:white;
+  padding:8px 12px;
+  border:2px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 1px;
+  cursor:pointer;
+  
+}
+
+.timer{
+  float: right;
+  padding-right: 25px;
+  padding-bottom: 60px;
+}
+footer{
+  text-align: center;
+  font-size: 11px;
+  color: #616161;
+  padding-top: 600px;
+}
